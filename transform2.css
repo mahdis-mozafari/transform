@@ -1,0 +1,265 @@
+*{
+    margin: 20px;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+ }
+ .box15{
+    width: 200px;
+    height: 150px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    flex-wrap: wrap;
+}
+.box15-1{
+width: 100px;
+height: 100px;
+background-color:purple;
+transition: all 2s;
+/* position: relative; */
+}
+div:hover .box15-1{
+transform-origin: top right;
+transform: rotate(60deg);
+}
+
+.box16{
+    width: 200px;
+    height: 150px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    flex-wrap: wrap;
+}
+.box16-1{
+width: 100px;
+height: 100px;
+background-color:purple;
+transition: all 2s;
+/* position: relative; */
+}
+div:hover .box16-1{
+transform: rotate(90deg);
+transform-origin: bottom left;
+}
+.box17{
+    width: 200px;
+    height: 150px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    flex-wrap: wrap;
+}
+.box17-1{
+width: 100px;
+height: 100px;
+background-color:purple;
+transition: all 2s;
+/* position: relative; */
+transform-origin: bottom;
+}
+div:hover .box17-1{
+transform: perspective(100px) rotatex(40deg);
+
+
+}
+.box18{
+    width: 200px;
+    height: 150px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    flex-wrap: wrap;
+}
+.box18-1{
+width: 100px;
+height: 100px;
+background-color:purple;
+transition: all 2s;
+/* position: relative; */
+transform-origin: top;
+}
+div:hover .box18-1{
+transform:perspective(150px) rotatex(40deg);
+}
+.box19{
+    width: 200px;
+    height: 150px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* position: absolute; */
+    flex-wrap: wrap;
+}
+.box19-1{
+width: 100px;
+height: 100px;
+background-color:purple;
+transition: all 2s;
+/* position: relative; */
+transform-origin: left;
+}
+div:hover .box19-1{
+    transform:perspective(150px) rotatey(40deg)
+}
+
+ .box20{
+    width: 200px;
+    height: 150px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box20-1{
+    width: 100px;
+    height: 100px;
+    background-color:purple;
+    transition: all 2s;
+    /* position: relative; */
+    transform-origin: right;
+
+    }
+    div:hover .box20-1{
+        transform:perspective(150px) rotatey(40deg)
+    }
+    .box21{
+        width: 200px;
+        height: 150px;
+        background-color:antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box21-1{
+        width: 100px;
+        height: 100px;
+        background-color:purple;
+        transition: all 2s;
+        /* position: relative; */
+        transform-origin: top right;
+        }
+    div:hover .box21-1{
+        transform:scale(2,2);
+        
+        }
+        .box22{
+            width: 200px;
+            height: 150px;
+            background-color:antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .box22-1{
+            width: 100px;
+            height: 100px;
+            background-color:purple;
+            transition: all 2s;
+            /* position: relative; */
+            transform-origin: bottom left;
+            }
+            div:hover .box22-1{
+                transform:scale(2,2);
+               
+            }
+            .box23{
+                width: 200px;
+                height: 150px;
+                background-color:antiquewhite;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .box23-1{
+                width: 100px;
+                height: 100px;
+                background-color:purple;
+                transition: all 2s;
+                /* position: relative; */
+                transform-origin:left;
+            
+                }
+                div:hover .box23-1{
+                    transform:scalex(2)
+                }
+                .box24{
+                    width: 200px;
+                    height: 150px;
+                    background-color:antiquewhite;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-wrap: wrap;
+                }
+                .box24-1{
+                    width: 100px;
+                    height: 100px;
+                    background-color:purple;
+                    transition: all 2s;
+                    /* position: relative; */
+                    transform-origin:right;
+                
+                    }
+                    div:hover .box24-1{
+                        transform:scalex(2)
+                    }
+                    .box25{
+                        width: 200px;
+                        height: 150px;
+                        background-color:antiquewhite;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-wrap: wrap;
+                    }
+                    .box25-1{
+                        width: 100px;
+                        height: 100px;
+                        background-color:purple;
+                        transition: all 2s;
+                        /* position: relative; */
+                        transform-origin:top;
+                    
+                        }
+                        div:hover .box25-1{
+                            transform:scaley(2)
+                        }
+                        .box26{
+                            width: 200px;
+                            height: 150px;
+                            background-color:antiquewhite;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-wrap: wrap;
+                        }
+                        .box26-1{
+                            width: 100px;
+                            height: 100px;
+                            background-color:purple;
+                            transition: all 2s;
+                            /* position: relative; */
+                            transform-origin:bottom;
+                        
+                            }
+                            div:hover .box26-1{
+                                transform:scaley(2)
+                            }
